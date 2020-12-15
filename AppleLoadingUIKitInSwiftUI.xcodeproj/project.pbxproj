@@ -25,6 +25,8 @@
 		7B68AC6C25883B2600F559EE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B68AC6B25883B2600F559EE /* Profile.swift */; };
 		7B68AC7325883FD300F559EE /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B68AC7125883FD300F559EE /* landmarkData.json */; };
 		7B68AC7425883FD300F559EE /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B68AC7225883FD300F559EE /* hikeData.json */; };
+		7B68ACFE258978F300F559EE /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B68ACFD258978F300F559EE /* PageControl.swift */; };
+		7B68AD0825897D2700F559EE /* HostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B68AD0725897D2700F559EE /* HostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		7B68AC6B25883B2600F559EE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		7B68AC7125883FD300F559EE /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData.json; path = ../../../../../Downloads/InterfacingWithUIKit/StartingPoint/Landmarks/Resources/landmarkData.json; sourceTree = "<group>"; };
 		7B68AC7225883FD300F559EE /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hikeData.json; path = ../../../../../Downloads/InterfacingWithUIKit/StartingPoint/Landmarks/Resources/hikeData.json; sourceTree = "<group>"; };
+		7B68ACFD258978F300F559EE /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		7B68AD0725897D2700F559EE /* HostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,7 @@
 				7B68AC4E25882DAF00F559EE /* FeatureCard.swift */,
 				7B68AC5325882F3900F559EE /* TextOverlay.swift */,
 				7B68AC58258830B600F559EE /* PageView.swift */,
+				7B68ACFD258978F300F559EE /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			children = (
 				7B68AC7225883FD300F559EE /* hikeData.json */,
 				7B68AC7125883FD300F559EE /* landmarkData.json */,
+				7B68AD0725897D2700F559EE /* HostView.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -316,8 +322,10 @@
 			files = (
 				7B68AC6725883B0100F559EE /* Hike.swift in Sources */,
 				7B68AC122588262400F559EE /* ViewController.swift in Sources */,
+				7B68ACFE258978F300F559EE /* PageControl.swift in Sources */,
 				7B68AC59258830B600F559EE /* PageView.swift in Sources */,
 				7B68AC5F25883AE100F559EE /* ModelData.swift in Sources */,
+				7B68AD0825897D2700F559EE /* HostView.swift in Sources */,
 				7B68AC0E2588262400F559EE /* AppDelegate.swift in Sources */,
 				7B68AC102588262400F559EE /* SceneDelegate.swift in Sources */,
 				7B68AC412588268800F559EE /* PageViewController.swift in Sources */,
