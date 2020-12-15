@@ -12,10 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        let pageView = PageView(pages: ModelData().features.map { FeatureCard(landMark: $0) })
-            .aspectRatio(3 / 2, contentMode: .fit)
-        let hostView = HostView<Test>(parent: self, view: Test())
+        let pages = ModelData().features.map { FeatureCard(landMark: $0) }
+        let pageView = PageView(pages: pages)
+        let hostView = HostView<PageView<FeatureCard>>(parent: self, view: pageView)
         view.addSubview(hostView)
         hostView.fillSuperview()
     }
